@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+
+}
+
+/*logo*/
+.header {
+    display: flex;
+    margin-top: 15px;
+}
+
+.logo {
+    margin-left: 10px;
+    float: left;
+    height: 50px;
+    background: transparent;
+}
+
+.logo img {
+    height: 10vh;
+    border-radius: 50%;
+}
+
+.logo h3 {
+    font-size: 25px;
+    margin-top: -55px;
+    margin-left: 70px;
+    color: rgb(47, 112, 82)
+}
+
+.nav ul {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.nav ul li {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: rgb(27, 106, 137);
+
+}
+
+.nav ul li a:hover {
+    font-weight: bolder;
+    color: green;
+}
+
+.loginBtn {
+    cursor: pointer;
+    color: rgb(27, 106, 137);
+    margin-right: 70px;
+    float: right;
+}
+
+.loginBtn a {
+    padding: 10px 30px;
+    color: white;
+    background: linear-gradient(to right, rgb(47, 112, 82), rgb(180, 192, 193));
+    text-decoration: none;
+    border-radius: 30px;
+    transition: .5s;
+    float: right;
+    margin-left: 950px;
+    margin-top: 10px;
+}
+
+.loginBtn a:hover {
+    color: black;
+}
