@@ -55,6 +55,7 @@
     color: green;
 }
 
+
 .loginBtn {
     cursor: pointer;
     color: rgb(27, 106, 137);
@@ -62,7 +63,7 @@
     float: right;
 }
 
-.loginBtn a {
+.loginBtn button {
     padding: 10px 30px;
     color: white;
     background: linear-gradient(to right, rgb(47, 112, 82), rgb(180, 192, 193));
@@ -74,6 +75,6 @@
     margin-top: 10px;
 }
 
-.loginBtn a:hover {
+.loginBtn button:hover {
     color: black;
 }

@@ -20,8 +20,8 @@ function RegisterForm(props) {
             repetePassword: enteredRepetePassword,
         };
 
-        //props.onAddUser(user);
-        console.log(user);
+        props.onAddUser(user);
+        //console.log(user);
     }
 
     return (

@@ -18,8 +18,7 @@ function LoginForm(props) {
             password:enteredPassword,
         };
 
-        //props.onLoginUser(user);
-        console.log(user);
+        props.onLoginUser(user);
     }
 
 

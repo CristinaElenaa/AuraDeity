@@ -4,7 +4,7 @@ import LoginRegisterBody from '../components/loginRegister/LoginRegisterBody';
 function LoginRegisterPage() {
     return (
         <div>
-            <MainNavigation />
+            <MainNavigation actionTitle='Login'/>
             <div>
                 <LoginRegisterBody />
             </div>

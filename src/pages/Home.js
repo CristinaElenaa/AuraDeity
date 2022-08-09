@@ -8,8 +8,7 @@ import classes from '../components/home/HomeBody.module.css';
 function HomePage() {
     return (
         <div className={classes.background}>
-            <MainNavigation />
-            
+            <MainNavigation actionTitle='Login' />
             <div>
                 <HomeBody />
             </div>
